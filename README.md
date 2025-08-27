@@ -18,10 +18,11 @@ A modern, fully responsive flower shop website built with HTML, CSS and JS. This
 - `querySelectorAll` → Returns **all elements** matching a CSS selector (NodeList).
 
 2. How do you **create and insert a new element into the DOM**?  
+```
 let newEl = document.createElement('div');  
 newEl.textContent = "Hello World";  
 document.body.appendChild(newEl);  
-
+```
 3. What is **Event Bubbling** and how does it work?
 - Event starts at the **target element** and then **bubbles up** to its parent elements.
 - Example: Click on a button → first button, then div, then body.
