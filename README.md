@@ -17,7 +17,7 @@ A modern, fully responsive flower shop website built with HTML, CSS and JS. This
 - `querySelector` → Returns **the first element** matching a CSS selector.
 - `querySelectorAll` → Returns **all elements** matching a CSS selector (NodeList).
 
-2. How do you **create and insert a new element into the DOM**?
+2. How do you **create and insert a new element into the DOM**?  
 let newEl = document.createElement('div');  
 newEl.textContent = "Hello World";  
 document.body.appendChild(newEl);  
