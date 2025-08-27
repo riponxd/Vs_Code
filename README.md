@@ -31,8 +31,8 @@ document.body.appendChild(newEl);
 - Instead of adding event on each child, we **add event to parent** and catch events from children.
 - Useful for **dynamic elements** and improves performance.
 
-5. What is the difference between **preventDefault() and stopPropagation()** methods?
-`preventDefault()` → Stops default **browser action** (like form submit or link click).
-`stopPropagation()` → Stops the event from **bubbling or capturing** further.
+5. What is the difference between **preventDefault() and stopPropagation()** methods?  
+`preventDefault()` → Stops default **browser action** (like form submit or link click).  
+`stopPropagation()` → Stops the event from **bubbling or capturing** further.  
 ---
 
